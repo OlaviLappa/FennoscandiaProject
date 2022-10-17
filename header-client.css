@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+ 
+header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: url("public_html/images/header.jpg") center no-repeat;
+    background-size: cover;
+}
+ 
+.site-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    background: url("public_html/images/header.jpg") center no-repeat;
+    background-size: cover;
+    opacity: .4;
+}
